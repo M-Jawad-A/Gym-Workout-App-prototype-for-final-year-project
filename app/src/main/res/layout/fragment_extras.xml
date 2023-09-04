@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExtrasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/abs_scissors_extras_line1"
+        android:textSize="20sp" />
+    <!--     tools:text="For an easier go at the scissor kicks exercise, try:\n-->
+<!--        \tKeep your legs lower to the mat. This can help take the pressure off your lower back.-->
+<!--        If you’re feeling your lower back arching up away from the mat while performing this exercise, start with your feet just hovering over the floor.-->
+<!--        As you get stronger, increase the distance between the floor and your legs. Make sure your back is not arching.\n\n\n-->
+<!--        For a more challenging attempt at this exercise, try:\n-->
+<!--        \tRaise your legs higher and make the scissoring movement larger.\n-->
+<!--        \tSlow down the kicking movement and hold the top leg for 2 to 3 seconds before switching legs.\n-->
+<!--        \tAdd light ankle weights.\n" -->
+</FrameLayout>

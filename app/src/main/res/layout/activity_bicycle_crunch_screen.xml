@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BicycleCrunchScreen">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/this_is_the_back_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercisePageHeading"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/exercisePageHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/bicycle_crunch"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bicycleCrunchImg"
+        android:layout_width="198dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/this_is_the_bicycle_crunch_image"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toBottomOf="@+id/exercisePageHeading"
+        app:srcCompat="@drawable/bicycle_crunch" />
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="408dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/abs_scissors_descriprion_line_1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bicycleCrunchImg" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="404dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="@string/abs_scissors_description_line_2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description1" />
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="409dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="@string/abs_scissors_description_line_3"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description2" />
+
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="410dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="@string/abs_scissors_description_line_4"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description3" />
+
+    <TextView
+        android:id="@+id/description5"
+        android:layout_width="411dp"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:text="@string/abs_Scissors_description_line_5"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description4" />
+
+    <TextView
+        android:id="@+id/description6"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="@string/abs_scissors_description_line_6"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description5" />
+
+    <TextView
+        android:id="@+id/description7"
+        android:layout_width="405dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="@string/abs_scissors_description_line_7"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

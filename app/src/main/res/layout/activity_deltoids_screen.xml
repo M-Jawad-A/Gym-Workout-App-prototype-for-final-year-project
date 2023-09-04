@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeltoidsScreen">
+
+    <!--on below line we are creating a
+        text for heading of our app-->
+    <TextView
+        android:id="@+id/deltoidsScreenPageHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/deltoids_exercise_list"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--on below line we are creating a recycler view-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVDeltoidsExercises"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/deltoidsScreenPageHeading"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/idRVDeltoidsExercises"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="361dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/back_button" />
+
+</RelativeLayout>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bodyModel"
+        android:layout_width="141dp"
+        android:layout_height="386dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/base_model"
+        android:src="@drawable/base_front_muscle_diagram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/abs"
+        android:layout_width="36dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/abs_on_the_model"
+        android:src="@drawable/abs"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel" />
+
+    <ImageView
+        android:id="@+id/frontLeftForearm"
+        android:layout_width="33dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/front_left_forearm"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_front_left_forearm" />
+
+    <ImageView
+        android:id="@+id/frontLeftShoulder"
+        android:layout_width="30dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/front_left_shoulder"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_front_left_shoulder" />
+
+    <ImageView
+        android:id="@+id/frontRightForearm"
+        android:layout_width="34dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="144dp"
+        android:src="@drawable/front_right_forearm"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_front_right_forearm" />
+
+    <ImageView
+        android:id="@+id/frontRightShoulder"
+        android:layout_width="31dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/front_right_shoulder"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_front_right_shoulder" />
+
+    <ImageView
+        android:id="@+id/leftBicep"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/left_bicep"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_left_bicep" />
+
+    <ImageView
+        android:id="@+id/leftOblique"
+        android:layout_width="20dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="39dp"
+        android:src="@drawable/left_oblique"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_left_oblique" />
+
+    <ImageView
+        android:id="@+id/LeftQuad"
+        android:layout_width="31dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="37dp"
+        android:src="@drawable/left_quadricep"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_left_quad" />
+
+    <ImageView
+        android:id="@+id/pecs"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="36dp"
+        android:src="@drawable/pecs"
+        app:layout_constraintEnd_toEndOf="@+id/bodyModel"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_pecs" />
+
+    <ImageView
+        android:id="@+id/rightBicep"
+        android:layout_width="29dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="117dp"
+        android:src="@drawable/right_bicep"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_right_bicep" />
+
+    <ImageView
+        android:id="@+id/rightOblique"
+        android:layout_width="22dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="129dp"
+        android:src="@drawable/right_oblique"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_right_oblique" />
+
+    <ImageView
+        android:id="@+id/rightQuad"
+        android:layout_width="31dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/right_quadricep"
+        app:layout_constraintStart_toStartOf="@+id/bodyModel"
+        app:layout_constraintTop_toTopOf="@+id/bodyModel"
+        android:contentDescription="@string/model_right_quad" />
+
+    <ImageView
+        android:id="@+id/backBodyModel"
+        android:layout_width="141dp"
+        android:layout_height="386dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="52dp"
+        android:contentDescription="@string/base_back_model"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/base_back_muscle_diagram" />
+
+    <ImageView
+        android:id="@+id/backLeftForearm"
+        android:layout_width="26dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="151dp"
+        app:layout_constraintStart_toStartOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/back_left_forearm"
+        android:contentDescription="@string/model_back_left_forearm" />
+
+    <ImageView
+        android:id="@+id/backLeftShoulder"
+        android:layout_width="27dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="103dp"
+        app:layout_constraintStart_toStartOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/back_left_shoulder"
+        android:contentDescription="@string/model_back_left_shoulder" />
+
+    <ImageView
+        android:id="@+id/backRightForearm"
+        android:layout_width="26dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/back_right_forearm"
+        android:contentDescription="@string/model_back_right_forearm" />
+
+    <ImageView
+        android:id="@+id/backRightShoulder"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/back_right_shoulder"
+        android:contentDescription="@string/model_back_right_shoulder" />
+
+    <ImageView
+        android:id="@+id/leftTrapezius"
+        android:layout_width="23dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="86dp"
+        app:layout_constraintStart_toStartOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/left_trapezius"
+        android:contentDescription="@string/model_left_trapezius" />
+
+    <ImageView
+        android:id="@+id/leftTriceps"
+        android:layout_width="23dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintStart_toStartOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/left_triceps"
+        android:contentDescription="@string/model_left_triceps" />
+
+    <ImageView
+        android:id="@+id/middleBack"
+        android:layout_width="54dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="142dp"
+        app:layout_constraintStart_toStartOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/middle_back"
+        android:contentDescription="@string/model_middle_back" />
+
+    <ImageView
+        android:id="@+id/rightTrapezius"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="44dp"
+        android:contentDescription="@string/model_right_trapezius"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/right_trapezius" />
+
+    <ImageView
+        android:id="@+id/rightTriceps"
+        android:layout_width="25dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/right_triceps"
+        android:contentDescription="@string/model_right_triceps" />
+
+    <ImageView
+        android:id="@+id/upperBack"
+        android:layout_width="66dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="36dp"
+        android:contentDescription="@string/model_upper_back"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/upper_back" />
+
+    <ImageView
+        android:id="@+id/glutes"
+        android:layout_width="65dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:layout_constraintTop_toTopOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/glutes"
+        android:contentDescription="@string/model_glutes" />
+
+    <ImageView
+        android:id="@+id/leftHamstring"
+        android:layout_width="30dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="109dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backBodyModel"
+        app:layout_constraintStart_toStartOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/left_hamstring"
+        android:contentDescription="@string/model_left_hamstring" />
+
+    <ImageView
+        android:id="@+id/rightHamstring"
+        android:layout_width="33dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="109dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backBodyModel"
+        app:layout_constraintEnd_toEndOf="@+id/backBodyModel"
+        app:srcCompat="@drawable/right_hamstring"
+        android:contentDescription="@string/model_right_hamstring" />
+
+    <ImageView
+        android:id="@+id/bottomBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bottom_border" />
+
+    <ImageView
+        android:id="@+id/homepageButton"
+        android:layout_width="81dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="31dp"
+        app:layout_constraintStart_toStartOf="@+id/bottomBorder"
+        app:layout_constraintTop_toTopOf="@+id/bottomBorder"
+        app:srcCompat="@drawable/homepage_button" />
+
+    <ImageView
+        android:id="@+id/workoutButton"
+        android:layout_width="74dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="157dp"
+        app:layout_constraintEnd_toEndOf="@+id/bottomBorder"
+        app:layout_constraintStart_toStartOf="@+id/bottomBorder"
+        app:layout_constraintTop_toTopOf="@+id/bottomBorder"
+        app:srcCompat="@drawable/workout_button" />
+
+    <ImageView
+        android:id="@+id/questionMark"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/question_mark_icon" />
+
+    <TextView
+        android:id="@+id/homeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="78dp"
+        android:text="@string/home"
+        app:layout_constraintStart_toStartOf="@+id/bottomBorder"
+        app:layout_constraintTop_toTopOf="@+id/bottomBorder" />
+
+    <TextView
+        android:id="@+id/workoutListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="78dp"
+        android:text="@string/workoutlist"
+        app:layout_constraintStart_toStartOf="@+id/bottomBorder"
+        app:layout_constraintTop_toTopOf="@+id/bottomBorder" />
+
+    <ImageView
+        android:id="@+id/userInfoButton"
+        android:layout_width="118dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toEndOf="@+id/bottomBorder"
+        app:layout_constraintTop_toTopOf="@+id/bottomBorder"
+        app:srcCompat="@drawable/user_info_button" />
+
+    <TextView
+        android:id="@+id/userInfoButtonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/user_info"
+        app:layout_constraintEnd_toEndOf="@+id/bottomBorder"
+        app:layout_constraintTop_toTopOf="@+id/bottomBorder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

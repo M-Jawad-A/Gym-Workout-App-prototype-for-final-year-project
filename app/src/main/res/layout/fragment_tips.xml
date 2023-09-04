@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/abs_scissors_tips_line1"
+        android:textSize="20sp" />
+<!--        tools:text="Keep your arms stationary throughout the entire move. Your arms serve as stability. They should not be used as momentum.\n-->
+<!--        Keep your core tight and engaged throughout the entire move. Think belly button to spine.\n-->
+<!--        Keep the motion rhythmic and controlled, not fast and furious.\n-->
+<!--        Since you’re asking the core muscles to kick it into high gear, make sure to properly warm up before performing scissor kicks." -->
+
+</FrameLayout>

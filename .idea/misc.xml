@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/abs_scissors_useful_code.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_abs_scissors_screen.xml" value="0.264" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_abs_scissors_simple.xml" value="0.4" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_abs_scissors_tabs.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_abs_screen.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_biceps_screen.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_biceps_screen_fix.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_bicycle_crunch_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_chest_screen.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_deltoids_screen.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_exercises_pages.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_forearms_screen.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_glutes_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_hamstrings_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_middle_back_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_obliques_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_quadriceps_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_trapezius_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_triceps_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_upper_back_screen.xml" value="0.159375" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_user_info_screen.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/activity_workout_list_screeen.xml" value="0.34057971014492755" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/course_rv_item.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/exercise_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/fragment_description.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/fragment_description_fragement.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/fragment_extras.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/layout/fragment_tips.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/menu/search_abs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/menu/search_biceps.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/menu/search_chest.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/menu/search_deltoids.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/menu/search_exercise.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/Final Project Artefact/app/src/main/res/menu/search_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pokem/Documents/School work/NCL/Stage 3/CSC3094/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
